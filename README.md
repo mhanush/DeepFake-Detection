@@ -116,14 +116,10 @@ The deepfake detection model consists of three CNN models that are ensembled to 
 
 The ensembled model achieves a high accuracy in detecting deepfakes. Below are the performance metrics:
 
-- **Accuracy**: X%
-- **Precision**: X%
-- **Recall**: X%
-- **F1 Score**: X%
-
+- **Accuracy**: 70%
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact [yourname](mailto:youremail@example.com).
+For any questions or suggestions, please open an issue or contact [Hanush M](mailto:mhanush@gmail.com) [Manoj S](mailto:manoj12a2004@gmail.com) [Prakash](mailto:pprakash45984@gmail.com) [Vikkram V](mailto:mpoco3027@gmail.com).
 
 ---
