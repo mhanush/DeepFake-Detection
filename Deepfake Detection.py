@@ -32,7 +32,7 @@ model1.add(Conv2D(32,kernel_size=(3,3),padding='valid',activation='relu',input_s
 model1.add(BatchNormalization())
 model1.add(MaxPooling2D(pool_size=(2,2),strides=2,padding='valid'))
 
-model1.add(Conv2D(64,kernel_size=(3,3),padding='valid',activation='relu'))
+model1.add(Conv2D(64,kernel_size=(4,4),padding='valid',activation='relu'))
 model1.add(BatchNormalization())
 model1.add(MaxPooling2D(pool_size=(2,2),strides=2,padding='valid'))
 
@@ -57,11 +57,11 @@ model1.fit(train_data,epochs=15,validation_data=test_data)
 
 model2 = Sequential()
 
-model2.add(Conv2D(32, kernel_size=(3, 3), padding='valid', activation='relu', input_shape=(256, 256, 3)))
+model2.add(Conv2D(32, kernel_size=(4, 4), padding='valid', activation='relu', input_shape=(256, 256, 3)))
 model2.add(BatchNormalization())
 model2.add(MaxPooling2D(pool_size=(2, 2), strides=2, padding='valid'))
 
-model2.add(Conv2D(64, kernel_size=(3, 3), padding='valid', activation='relu'))
+model2.add(Conv2D(64, kernel_size=(4, 4), padding='valid', activation='relu'))
 model2.add(BatchNormalization())
 model2.add(MaxPooling2D(pool_size=(4,4), strides=2, padding='valid'))
 
@@ -84,7 +84,7 @@ model2.fit(train_data,epochs=15,validation_data=test_data)
 model3 = Sequential()
 
 
-model3.add(Conv2D(32, kernel_size=(3, 3), padding='valid', activation='relu', input_shape=(256, 256, 3)))
+model3.add(Conv2D(32, kernel_size=(4, 4), padding='valid', activation='relu', input_shape=(256, 256, 3)))
 model3.add(BatchNormalization())
 model3.add(MaxPooling2D(pool_size=(2, 2), strides=2, padding='valid'))
 
@@ -92,7 +92,7 @@ model3.add(Conv2D(64, kernel_size=(3, 3), padding='valid', activation='relu'))
 model3.add(BatchNormalization())
 model3.add(MaxPooling2D(pool_size=(2, 2), strides=2, padding='valid'))
 
-model3.add(Conv2D(128, kernel_size=(3, 3), padding='valid', activation='relu'))
+model3.add(Conv2D(128, kernel_size=(4, 4), padding='valid', activation='relu'))
 model3.add(BatchNormalization())
 model3.add(MaxPooling2D(pool_size=(2, 2), strides=2, padding='valid'))
 
