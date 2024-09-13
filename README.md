@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the code and sample dataset for a deepfake detection project using a 3-ensembled Convolutional Neural Network (CNN) model. The project aims to identify deepfake images by analyzing their features and detecting inconsistencies introduced by deepfake generation techniques.
+This repository contains the code and sample dataset for a deepfake detection project using a 3-ensembled customised sequential Convolutional Neural Network (CNN) model. The project aims to identify deepfake images by analyzing their features and detecting inconsistencies introduced by deepfake generation techniques.
 
 ## Table of Contents
 
